@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Background circle -->
+    <path
+        android:fillColor="#006400"
+        android:pathData="M54,54m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0"/>
+    <!-- Lilypad/fleur-de-lis shape (scout symbol) -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M54,25
+            C54,25 65,35 65,50
+            C65,55 62,60 54,60
+            C46,60 43,55 43,50
+            C43,35 54,25 54,25
+            Z
+            M54,62
+            C58,62 62,65 62,70
+            C62,73 59,75 54,75
+            C49,75 46,73 46,70
+            C46,65 50,62 54,62
+            Z"/>
+    <!-- Left fleur-de-lis -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M38,40
+            C35,42 32,45 32,50
+            C32,53 34,55 38,55
+            C40,55 42,53 42,50
+            C42,47 40,45 38,40
+            Z"/>
+    <!-- Right fleur-de-lis -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M70,40
+            C73,42 76,45 76,50
+            C76,53 74,55 70,55
+            C68,55 66,53 66,50
+            C66,47 68,45 70,40
+            Z"/>
+</vector>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="144dp"
+    android:height="144dp"
+    android:viewportWidth="144"
+    android:viewportHeight="144">
+    <!-- Background -->
+    <path
+        android:fillColor="#006400"
+        android:pathData="M72,72m-72,0a72,72 0,1 1,144 0a72,72 0,1 1,-144 0"/>
+    <!-- Fleur-de-lis -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M72,30
+            C72,30 90,48 90,72
+            C90,81 84,90 72,90
+            C60,90 54,81 54,72
+            C54,48 72,30 72,30
+            Z"/>
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M72,93
+            C78,93 84,96 84,105
+            C84,111 78,114 72,114
+            C66,114 60,111 60,105
+            C60,96 66,93 72,93
+            Z"/>
+</vector>
