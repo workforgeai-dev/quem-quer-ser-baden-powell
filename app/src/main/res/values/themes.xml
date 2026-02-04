@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.QuemQuerSerBadenPowell" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/scout_green</item>
+        <item name="colorPrimaryVariant">@color/scout_navy</item>
+        <item name="colorOnPrimary">@color/scout_gold</item>
+        <item name="android:statusBarColor">@color/scout_navy</item>
+    </style>
+</resources>

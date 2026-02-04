@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quem Quer Ser Baden-Powell</string>
+    <color name="scout_green">#006400</color>
+    <color name="scout_gold">#D4AF37</color>
+    <color name="scout_navy">#1A2747</color>
+</resources>
