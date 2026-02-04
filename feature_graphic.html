@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feature Graphic - Quem Quer Ser Baden-Powell</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { display: flex; justify-content: center; align-items: center; min-height: 100vh; background: #1A2747; }
+        .feature-graphic {
+            width: 1024px;
+            height: 500px;
+            background: linear-gradient(135deg, #1A2747 0%, #006400 100%);
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+        /* Pattern overlay */
+        .feature-graphic::before {
+            content: '';
+            position: absolute;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(212,175,55,0.1) 1px, transparent 1px);
+            background-size: 30px 30px;
+            top: -50%;
+            left: -50%;
+        }
+        .content {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            text-align: center;
+        }
+        h1 {
+            font-family: 'Arial Black', Arial, sans-serif;
+            font-size: 72px;
+            color: #D4AF37;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .badge {
+            width: 180px;
+            height: 180px;
+            background: radial-gradient(circle, #006400 0%, #1A2747 100%);
+            border: 8px solid #D4AF37;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px 0;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+        }
+        .badge-symbol {
+            font-size: 100px;
+            color: #D4AF37;
+        }
+        h2 {
+            font-family: Arial, sans-serif;
+            font-size: 42px;
+            color: #FFFFFF;
+            font-weight: bold;
+            letter-spacing: 4px;
+        }
+        .subtitle {
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            color: #D4AF37;
+            margin-top: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .bottom-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 50px;
+            background: #D4AF37;
+        }
+    </style>
+</head>
+<body>
+    <div class="feature-graphic">
+        <div class="content">
+            <h1>QUEM QUER SER</h1>
+            <div class="badge">
+                <span class="badge-symbol">⚜</span>
+            </div>
+            <h2>BADEN-POWELL</h2>
+            <p class="subtitle">Quiz de Escotismo Português</p>
+        </div>
+        <div class="bottom-bar"></div>
+    </div>
+</body>
+</html>
